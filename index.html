@@ -5,37 +5,43 @@
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/98ab9a0a0f.js" crossorigin="anonymous"></script>
     <title>Réservia</title>
 </head>
 <body>
      <main>
          <header>
-             <div class="logo"></div>                      <!--Header-->
-                <img src="img/Reservia.svg" alt="logo">
-             <nav>                                         <!--Nav_Bar-->
-                 <div class="btn_lodging">
-                     <div class="line"></div>               <!--bloc btn "Hébergement"-->
-                     <p class="p1">Hébergements</p>
-                 </div>
-                 <div class="btn_activity">                 <!--bloc btn "Activités"-->
-                     <p class="p2">Activités</p>
-                 </div>
-                 <div class="btn_signup">                   <!--bloc btn "S'inscrire"-->
-                     <p class="p1">S'inscrire</p>
-                 </div>
-             </nav>
+             <div class="top_header">
+                <div class="logo"></div>                      <!--Header-->
+                    <img src="img/Reservia.svg" alt="logo">
+                <nav>                                         <!--Nav_Bar-->
+                    <div class="btn_lodging">
+                        <div class="line"></div>               <!--bloc btn "Hébergement"-->
+                        <p class="p1">Hébergements</p>
+                    </div>
+                    <div class="btn_activity">                 <!--bloc btn "Activités"-->
+                        <p class="p2">Activités</p>
+                    </div>
+                    <div class="btn_signup">                   <!--bloc btn "S'inscrire"-->
+                        <p class="p1">S'inscrire</p>
+                    </div>
+                </nav>
+            </div>
              <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-             <p>En plein centre ville ou en pleine nature</p>
+             <p class="p_header">En plein centre ville ou en pleine nature</p>
          </header>
 
 
 
          <div class="search">                               <!--Search-->
-                <div class="search_bar"></div>
-                    <i class="fas fa-map-marker-alt"></i>
-                    <input type="search" class="input">
+                <div class="search_bar">
+                    <div class="loc_logo"><i class="fas fa-map-marker-alt"></i></div>
+                    <input type="search" value="Marseille, France" class="input">
                     <input type="button" class="btn_search" value="Rechercher">
+                </div>    
          </div>
 
 
@@ -280,6 +286,6 @@
                 <li>Centre d'aide</li>
                 <li>Nous contacter</li>
             </ul>
-     </footer>    
+     </footer>   
 </body>
 </html>

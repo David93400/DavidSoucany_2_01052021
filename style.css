@@ -1,0 +1,104 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+main
+{
+    width: 93%;
+    max-width: 1440px;
+    margin: auto;
+}
+.logo
+{
+    margin-top: 15px;
+
+}
+nav
+{
+    width: 480px;
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    float: right;
+    margin-top: -15px;   
+}
+.btn_lodging, .btn_activity, .btn_signup
+{
+    display: flex;
+    width: 160px;
+    flex-direction: column;
+    align-items: center;
+}
+.btn_signup
+{
+    font-weight: bold;
+}
+.p1
+{
+    color: #0065fc;
+}
+.line
+{
+    width: 160px;
+    height: 2px;
+    background-color: #0065fc;
+}    
+header
+{
+    height: 140px;
+}
+h1
+{
+    font-size: 1.3em;
+    margin-top: 25px;
+}
+.p_header
+{
+    margin-top: -7px;
+    font-size: .9em;
+}
+.search_bar
+{
+    width: 420px;
+    height: 50px;
+    border: #F2F2F2 solid 1px;
+    border-radius: 20px;
+    display: flex;
+}
+.loc_logo
+{
+    width: 50px;
+    height: 50px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+.input
+{
+    width: 235px;
+    padding: 0 0 0 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: transparent;
+}
+.btn_search
+{
+    border: transparent;
+    width:135px;
+    border-radius: 0 15px 15px 0;
+    background-color: #0065fc;
+    color:white;
+    font-size: 1.1em;
+}
+.btn_search:hover
+{
+    background-color: blue;
+}
+
+
+
