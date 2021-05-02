@@ -2,12 +2,17 @@ body
 {
     font-family: 'Raleway', sans-serif;
 }
+a
+{
+    text-decoration: none;
+}
 main
 {
     width: 93%;
     max-width: 1440px;
     margin: auto;
 }
+        /*début header*/
 .logo
 {
     margin-top: 15px;
@@ -38,6 +43,14 @@ nav
 {
     color: #0065fc;
 }
+.p2
+{
+    color: black;
+}
+.p2:hover
+{
+    color: #0065fc;
+}
 .line
 {
     width: 160px;
@@ -58,6 +71,9 @@ h1
     margin-top: -7px;
     font-size: .9em;
 }
+        /*fin du header*/
+
+        /*début search bar*/
 .search_bar
 {
     width: 420px;
@@ -99,6 +115,53 @@ h1
 {
     background-color: blue;
 }
+        /*fin search bar*/
+
+        /*début filters bar*/
+.filter
+{
+    width: 930px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.h2_f
+{
+    font-size: 1.1em;
+    padding-right: 35px;
+}
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+    color: #0065fc;
+    font-size: 1.2em;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEEBFF;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.eco, .family, .romantic, .pets
+{
+    width: auto;
+    height: 45px;
+    border: #F2F2F2 solid;
+    border-left: transparent;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.eco:hover, .family:hover, .romantic:hover, .pets:hover
+{
+    background-color: #DEEBFF;
+    border: #DEEBFF solid;
+}
+
+
 
 
 

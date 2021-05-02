@@ -20,13 +20,13 @@
                 <nav>                                         <!--Nav_Bar-->
                     <div class="btn_lodging">
                         <div class="line"></div>               <!--bloc btn "Hébergement"-->
-                        <p class="p1">Hébergements</p>
+                        <a href="#logding"><p class="p1">Hébergements</p></a>
                     </div>
                     <div class="btn_activity">                 <!--bloc btn "Activités"-->
-                        <p class="p2">Activités</p>
+                        <a href="#activity"><p class="p2">Activités</p></a>
                     </div>
                     <div class="btn_signup">                   <!--bloc btn "S'inscrire"-->
-                        <p class="p1">S'inscrire</p>
+                        <a href="#"><p class="p1">S'inscrire</p></a>
                     </div>
                 </nav>
             </div>
@@ -47,19 +47,23 @@
 
 
          <div class="filter">                              <!--Filter_Bar-->
-            <h2>Filtres</h2>
-            <div class="eco"></div>
+            <h2 class="h2_f">Filtres</h2>
+            <div class="eco">
                 <div class="icon"><i class="fas fa-money-bill-wave"></i></div>
-                <h2>Économique</h2>
-            <div class="family"></div>
+                <h2 class="h2_f">Économique</h2>
+            </div>    
+            <div class="family">
                 <div class="icon"><i class="fas fa-child"></i></div>
-                <h2>Familial</h2>
-            <div class="romantic"></div>
+                <h2 class="h2_f">Familial</h2>
+            </div>      
+            <div class="romantic">
                 <div class="icon"><i class="fas fa-heart"></i></div>
-                <h2>Romantique</h2>
-            <div class="pets"></div>
+                <h2 class="h2_f">Romantique</h2>
+            </div>    
+            <div class="pets">
                 <div class="icon"><i class="fas fa-dog"></i></div>
-                <h2>Animaux autorisés</h2>
+                <h2 class="h2_f">Animaux autorisés</h2>
+            </div>
          </div>
 
 
@@ -72,7 +76,7 @@
 
 
         <section>   
-            <h1>Hébergements à Marseille</h1>                                         <!--Lodging-->
+            <h1 id="logding">Hébergements à Marseille</h1>                                         <!--Lodging-->
                 <div class="lodgings">
                     <div class="mini_lodging"></div>
                         <div class="thumbnail">
@@ -243,7 +247,7 @@
 
 
          <section class="activity">                     <!--Activity-->            
-             <h1>Activités à Marseille</h1>  
+             <h1 id="activity">Activités à Marseille</h1>  
                 <div class="box_activity">                 
                     <div class="mini_activity_l"></div>
                         <img src="" alt="">
