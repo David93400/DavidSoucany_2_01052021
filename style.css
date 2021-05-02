@@ -160,7 +160,30 @@ h1
     background-color: #DEEBFF;
     border: #DEEBFF solid;
 }
+        /*fin filters bar*/
 
+        /*début results bar*/
+.fa-info
+{
+    color: #0065fc;
+    font-size: .7em;
+}        
+.info_logo
+{
+    width: 20px;
+    height: 20px;
+    border: #F2F2F2 solid 1px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.result
+{
+    display: flex;
+    align-items: center;
+}
 
 
 
