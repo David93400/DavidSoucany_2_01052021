@@ -442,13 +442,9 @@ h4{
     display: flex;
     align-items: center;
 }
+        /*fin section Activity*/
 
-
-
-
-
-
-
+        /*début Footer*/
 
 footer
 {
@@ -457,6 +453,35 @@ footer
     margin-top: 50px;
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+
+}
+.ourlodgings, .assistance{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.assistance{
+    margin-right: 27%;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4%;
+    padding-top: 24px;
+}
+h2{
+    font-size: 1.1em;
+    padding-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color: initial;
+    margin-bottom: 5px;
+}
+a:hover{
+    text-decoration: underline;
 }
