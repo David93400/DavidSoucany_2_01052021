@@ -1,0 +1,58 @@
+                /*Ordinateurs*/
+
+@media screen and (max-width:1440px)
+{
+    section{
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .bloc_lodging{
+        margin-top: 15px;
+    }
+    .bloc_popular{
+        height: 250px;
+        margin-bottom: 15px;
+    }
+    .popular{
+        display: flex;
+        margin: 0 25px 0 11px;
+        }
+    .title_popular{
+        width: 100%;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .fa-chart-line
+    {
+        padding-left: 20px;
+    }
+    .thumbnail{
+        width: 100%;
+    }
+    .thumbnail_pop{
+        width: 100%;
+    }
+}
+
+            /* Tablettes*/
+
+@media screen and (max-width: 991px)
+{
+    .filter{       
+        height: 100%;
+        max-width: 990px;
+        flex-wrap:wrap;
+    }
+    .bloc_filters{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 15px;
+    }
+        
+
+
+}
