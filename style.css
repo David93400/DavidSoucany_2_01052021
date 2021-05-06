@@ -13,6 +13,9 @@ main
     margin: auto;
 }
         /*début header*/
+
+
+}        
 .logo
 {
     margin-top: 15px;
@@ -26,7 +29,7 @@ nav
     justify-content: space-between;
     align-items:flex-start;
     float: right;
-    margin-top: -15px;  
+    margin-top: -8px;  
     margin-right: -25px; 
 }
 .btn_lodging, .btn_activity, .btn_signup
@@ -112,6 +115,9 @@ h1
     background-color: #0065fc;
     color:white;
     font-size: 1.1em;
+}
+.btn_search_icon{
+    display: none;
 }
 .btn_search:hover
 {
