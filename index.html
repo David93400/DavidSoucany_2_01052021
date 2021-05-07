@@ -17,17 +17,18 @@
          <header>
              <div class="top_header">
                                       <!--Header-->
-                    <img src="img/Reservia.svg" alt="logo">
+                    <img id="logo" src="img/Reservia.svg" alt="logo">
                     
                 <nav>                                         <!--Nav_Bar-->
-                    <div class="btn_lodging">
+                    <div class="btn_lodging" id="btn_lodging">
                         <div class="line"></div>               <!--bloc btn "Hébergement"-->
                         <a href="#logding"><p class="p1">Hébergements</p></a>
                     </div>
-                    <div class="btn_activity">                 <!--bloc btn "Activités"-->
+                    <div class="btn_activity" id="btn_activity">
+                        <div class="line_grey"></div>                 <!--bloc btn "Activités"-->
                         <a href="#activity"><p class="p2">Activités</p></a>
                     </div>
-                    <div class="btn_signup">                   <!--bloc btn "S'inscrire"-->
+                    <div class="btn_signup" id="btn_signup">                   <!--bloc btn "S'inscrire"-->
                         <a href="#"><p class="p1">S'inscrire</p></a>
                     </div>
                 </nav>
@@ -41,7 +42,7 @@
          <div class="search">                               <!--Search-->
                 <div class="search_bar">
                     <div class="loc_logo"><i class="fas fa-map-marker-alt"></i></div>
-                    <input type="search" value="Marseille, France" class="input">
+                    <input type="search" placeholder="Marseille, France" class="input">
                     <input type="button" class="btn_search" value="Rechercher">
                     <button class="btn_search_icon fas fa-search"></button>
                 </div>    
@@ -83,6 +84,7 @@
                 <div class="bloc_lodging"> 
                     <h1 class="h1_lodging" id="logding">Hébergements à Marseille</h1>      <!--Lodging-->
                         <div class="lodging"> 
+                            <a href="#">
                             <div class="mini_lodging">
                                 <div class="thumbnail">
                                     <div class="picture"><img src="img/lodging/xs/cannebiere.jpg" alt="Auberge la Cannebière"></div>
@@ -98,7 +100,9 @@
                                         </div>    
                                     </div>
                                 </div>   
-                            </div>       
+                            </div> 
+                            </a>  
+                            <a href="#"> 
                             <div class="mini_lodging">
                                 <div class="thumbnail">
                                     <div class="picture"><img src="img/lodging/xs/hotel_du_port.jpg" alt="Hôtel_du_port"></div>
@@ -115,6 +119,8 @@
                                     </div>
                                 </div>   
                             </div>
+                            </a>
+                            <a href="#">
                             <div class="mini_lodging">
                                 <div class="thumbnail">
                                     <div class="picture"><img src="img/lodging/xs/hotel_les_mouettes.jpg" alt="Hôtel_les_Mouettes"></div>
@@ -130,7 +136,9 @@
                                         </div>    
                                     </div>
                                 </div>   
-                            </div>       
+                            </div> 
+                            </a> 
+                            <a href="#">     
                             <div class="mini_lodging">
                                 <div class="thumbnail">
                                     <div class="picture"><img src="img/lodging/xs/hotel_de_la_mer.jpg" alt="Hôtel_de_la_mer"></div>
@@ -147,6 +155,8 @@
                                     </div>
                                 </div>   
                             </div>  
+                            </a>
+                            <a href="#">
                             <div class="mini_lodging">
                                 <div class="thumbnail">
                                     <div class="picture"><img src="img/lodging/xs/auberge_le_panier.jpg" alt="Auberge_le_Panier"></div>
@@ -162,7 +172,9 @@
                                         </div>    
                                     </div>
                                 </div>   
-                            </div>                  
+                            </div>       
+                            </a>
+                            <a href="#">           
                             <div class="mini_lodging">
                                 <div class="thumbnail">
                                     <div class="picture"><img src="img/lodging/xs/hotel_chez_amina.jpg" alt="Hôtel_chez_Amina"></div>
@@ -178,7 +190,8 @@
                                         </div>    
                                     </div>
                                 </div>   
-                            </div>       
+                            </div> 
+                            </a>      
                         </div>  
                         <a class="h2_lodging">Afficher plus</a> 
                      </div>       
@@ -189,6 +202,7 @@
                 <div class="bloc_popular">                                                          <!--Popular-->
                       <div class="title_popular"><h1>Les plus populaires</h1><i class="fas fa-chart-line"></i></div>          
                          <div class="popular">
+                            <a href="#">
                             <div class="mini_popular"></div>
                                 <div class="thumbnail_pop" id="pop1">
                                     <div class="picture_pop"><img src="img/lodging/xs/soleil_du_matin.jpg" alt="soleil_du_matin"></div>
@@ -206,6 +220,8 @@
                                         </div>    
                                     </div>
                                 </div>
+                                </a>
+                                <a href="#">
                                 <div class="mini_popular"></div>
                                 <div class="thumbnail_pop" id="pop2">
                                     <div class="picture_pop"><img src="img/lodging/xs/au_coeur_de_leau.jpg" alt="au_coeur_de_l'eau_chambres_d'hôtes"></div>
@@ -223,6 +239,8 @@
                                         </div>    
                                     </div>
                                 </div>
+                                </a>
+                                <a href="#">
                                 <div class="mini_popular"></div>
                                 <div class="thumbnail_pop" id="pop3">
                                     <div class="picture_pop"><img src="img/lodging/xs/hotel_tout_bleu.jpg" alt="hôtel_tout_bleu_et_blanc"></div>
@@ -240,6 +258,7 @@
                                         </div>    
                                     </div>
                                 </div>
+                                </a>
                          </div>                  
                 </div>
     </section>
@@ -250,28 +269,40 @@
                     <h1 class="h1_activity" id="activity">Activités à Marseille</h1>  
                         <div class="box_activity">                 
                             <div class="mini_activity" id="activity-1">
+                                <a href="#">
                                 <img src="img/activity/medium/vieux_port.jpg" alt="vieux_port">
                                 <h4>Vieux Port</h4>
+                                </a>
                             </div>    
                             <div class="mini_activity" id="activity-2">
+                                <a href="#">
                                 <img src="img/activity/xs/fort_de_pomegues.jpg" alt="fort_de_pomègues">
                                 <h4>Fort de Pomègues</h4>
+                                </a>
                             </div>    
                             <div class="mini_activity" id="activity-3">
+                                <a href="#">
                                 <img src="img/activity/xs/frioul.jpg" alt="îles_du_frioul">
                                 <h4>Îles du Frioul</h4>
+                                </a>
                             </div>    
                             <div class="mini_activity" id="activity-4">
+                                <a href="#">
                                 <img src="img/activity/xs/calanques.jpg" alt="Parc_national_des_Calanques">
                                 <h4>Parc National des Calanques</h4>
+                                </a>
                             </div>    
                             <div class="mini_activity" id="activity-5">
+                                <a href="#">
                                 <img src="img/activity/xs/notre_dame_de_la_garde.jpg" alt="notre_dame_de_la_garde">
                                 <h4>Notre-Dame-de-la-Garde</h4>
+                                </a>
                             </div>    
                             <div class="mini_activity" id="activity-6">
+                                <a href="#">
                                 <img src="img/activity/xs/parc_longchamp.jpg" alt="parc_longchamp">
                                 <h4>Parc Longchamp</h4>
+                                </a>
                             </div>    
                         </div>    
          </section>
