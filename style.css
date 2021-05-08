@@ -115,7 +115,7 @@ h1
     font-size: 1.1em;
 }
 .fa-search{
-    display: none !important;
+    display: none;
 }
 .btn_search:hover
 {
