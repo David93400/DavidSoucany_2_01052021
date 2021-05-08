@@ -3,6 +3,9 @@ body
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
+a{
+    text-decoration: none !important;
+}
 main
 {
     width: 93%;
@@ -62,7 +65,7 @@ header
 }
 h1
 {
-    font-size: 1.3em;
+    font-size: 1.4em;
     margin-top: 25px;
 }
 .p_header
@@ -358,7 +361,7 @@ section
 }
 .thumbnail_pop:hover
 {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
         /*fin section popular*/
