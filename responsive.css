@@ -212,4 +212,7 @@
     .search{
         margin-top: 20px;
     }
+    .fa-search{
+        display: block !important;
+    }
 }
